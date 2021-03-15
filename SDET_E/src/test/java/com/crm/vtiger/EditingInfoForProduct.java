@@ -13,7 +13,7 @@ public class EditingInfoForProduct extends BaseClass{
 @Test
 public void ProdTC23() throws Throwable
 {
-	//Navigate to Products Page
+	//Navigate to Products PageKNKLKN
 	HomePage hp=new HomePage(driver);
 	hp.getProductsLink().click();
 	productsPage p=new productsPage(driver);
