@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="Browser" value="chrome"/>
+  <test name="test-firefox(failed)" parallel="tests">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="crmvtigerassignment.CreateFilter">
+        <methods>
+          <include name="Bm"/>
+          <include name="CreateFilterTC_28"/>
+          <include name="CreateFilterTC_26"/>
+          <include name="CreateFilterTC_27"/>
+          <include name="Bc"/>
+          <include name="Bs"/>
+          <include name="Bc"/>
+        </methods>
+      </class> <!-- crmvtigerassignment.CreateFilter -->
+      <class name="crmvtigerassignment.CreateOpportunity">
+        <methods>
+          <include name="CreateOpp_25"/>
+          <include name="CreateOpp_TC_24"/>
+        </methods>
+      </class> <!-- crmvtigerassignment.CreateOpportunity -->
+    </classes>
+  </test> <!-- test-firefox(failed) -->
+  <test name="test-Chrome(failed)" parallel="tests">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="crmvtigerassignment.CreateFilter">
+        <methods>
+          <include name="Bm"/>
+          <include name="CreateFilterTC_28"/>
+          <include name="CreateFilterTC_26"/>
+          <include name="CreateFilterTC_27"/>
+          <include name="Bc"/>
+          <include name="Bs"/>
+          <include name="Bc"/>
+        </methods>
+      </class> <!-- crmvtigerassignment.CreateFilter -->
+      <class name="crmvtigerassignment.CreateOpportunity">
+        <methods>
+          <include name="CreateOpp_25"/>
+          <include name="CreateOpp_TC_24"/>
+        </methods>
+      </class> <!-- crmvtigerassignment.CreateOpportunity -->
+    </classes>
+  </test> <!-- test-Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+	<test name="test-firefox">
+		<parameter name="Browser" value="firefox" />
+		<classes>
+			<class name="crmvtigerassignment.CreateFilter" />
+			<class name="crmvtigerassignment.CreateOpportunity" />
+		</classes>
+
+	</test> <!-- Test -->
+
+	<test name="test-Chrome">
+		<parameter name="Browser" value="chrome">
+			<classes>
+				<class name="crmvtigerassignment.CreateFilter" />
+				<class name="crmvtigerassignment.CreateOpportunity" />
+			</classes>
+		</parameter>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

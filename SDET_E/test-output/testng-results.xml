@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="155" started-at="2021-03-15T18:21:34Z" finished-at="2021-03-15T18:21:34Z">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="CreateFilter.CreateFilterTC_26()[pri:0, instance:crmvtigerassignment.CreateFilter@6536e911]" name="CreateFilterTC_26" class="crmvtigerassignment.CreateFilter"/>
+        <method signature="CreateFilter.CreateFilterTC_27()[pri:0, instance:crmvtigerassignment.CreateFilter@6536e911]" name="CreateFilterTC_27" class="crmvtigerassignment.CreateFilter"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test name="Default test" duration-ms="155" started-at="2021-03-15T18:21:34Z" finished-at="2021-03-15T18:21:34Z">
+      <class name="crmvtigerassignment.CreateFilter">
+        <test-method status="PASS" signature="Bs()[pri:0, instance:crmvtigerassignment.CreateFilter@6536e911]" name="Bs" is-config="true" duration-ms="2757" started-at="2021-03-15T11:21:32Z" finished-at="2021-03-15T11:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bs -->
+        <test-method status="FAIL" signature="Bc(java.lang.String)[pri:0, instance:crmvtigerassignment.CreateFilter@6536e911]" name="Bc" is-config="true" duration-ms="0" started-at="2021-03-15T11:21:34Z" finished-at="2021-03-15T11:21:34Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BROWSER' is required by @Configuration on method Bc but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--327031812\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BROWSER' is required by @Configuration on method Bc but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--327031812\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:156)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:370)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bc -->
+        <test-method status="SKIP" signature="Bm()[pri:0, instance:crmvtigerassignment.CreateFilter@6536e911]" name="Bm" is-config="true" duration-ms="0" started-at="2021-03-15T11:21:34Z" finished-at="2021-03-15T11:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method status="SKIP" signature="CreateFilterTC_26()[pri:0, instance:crmvtigerassignment.CreateFilter@6536e911]" name="CreateFilterTC_26" duration-ms="2" started-at="2021-03-15T11:21:34Z" finished-at="2021-03-15T11:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateFilterTC_26 -->
+        <test-method status="SKIP" signature="Am()[pri:0, instance:crmvtigerassignment.CreateFilter@6536e911]" name="Am" is-config="true" duration-ms="0" started-at="2021-03-15T11:21:34Z" finished-at="2021-03-15T11:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method status="SKIP" signature="Bm()[pri:0, instance:crmvtigerassignment.CreateFilter@6536e911]" name="Bm" is-config="true" duration-ms="0" started-at="2021-03-15T11:21:34Z" finished-at="2021-03-15T11:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method status="SKIP" signature="CreateFilterTC_27()[pri:0, instance:crmvtigerassignment.CreateFilter@6536e911]" name="CreateFilterTC_27" duration-ms="3" started-at="2021-03-15T11:21:34Z" finished-at="2021-03-15T11:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateFilterTC_27 -->
+        <test-method status="SKIP" signature="Am()[pri:0, instance:crmvtigerassignment.CreateFilter@6536e911]" name="Am" is-config="true" duration-ms="0" started-at="2021-03-15T11:21:34Z" finished-at="2021-03-15T11:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method status="SKIP" signature="Bm()[pri:0, instance:crmvtigerassignment.CreateFilter@6536e911]" name="Bm" is-config="true" duration-ms="0" started-at="2021-03-15T11:21:34Z" finished-at="2021-03-15T11:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method status="SKIP" signature="CreateFilterTC_28()[pri:0, instance:crmvtigerassignment.CreateFilter@6536e911]" name="CreateFilterTC_28" duration-ms="2" started-at="2021-03-15T11:21:34Z" finished-at="2021-03-15T11:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateFilterTC_28 -->
+        <test-method status="SKIP" signature="Am()[pri:0, instance:crmvtigerassignment.CreateFilter@6536e911]" name="Am" is-config="true" duration-ms="0" started-at="2021-03-15T11:21:34Z" finished-at="2021-03-15T11:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method status="SKIP" signature="Ac()[pri:0, instance:crmvtigerassignment.CreateFilter@6536e911]" name="Ac" is-config="true" duration-ms="0" started-at="2021-03-15T11:21:34Z" finished-at="2021-03-15T11:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ac -->
+        <test-method status="SKIP" signature="As()[pri:0, instance:crmvtigerassignment.CreateFilter@6536e911]" name="As" is-config="true" duration-ms="0" started-at="2021-03-15T11:21:35Z" finished-at="2021-03-15T11:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- As -->
+      </class> <!-- crmvtigerassignment.CreateFilter -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
